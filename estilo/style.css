@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+  background-color: #8fc1b5;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  background-color: #007566;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > img {
+  width: 120px;
+}
+
+header > menu {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+header > menu > a {
+  background-color: #3a574c;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+header > menu > a:hover {
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s;
+}
+
+main {
+  background-color: #589a8d;
+  display: flex;
+  justify-content: center;
+}
+
+.facebook {
+  padding: 20px;
+}
+
+.instagram {
+  padding: 20px;
+}
+
+.threads {
+  padding: 20px;
+}
+
+.youtube {
+  padding: 20px;
+}
+
+#ii {
+  width: 50px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+section > video {
+  width: 480px;
+}
+
+footer {
+  background-color: #146551;
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  padding: 10px;
+}
